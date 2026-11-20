@@ -190,7 +190,12 @@ export const family: Person[] = [
     parents: ["gulmira", "koichun"],
     partners: ["nurjamal"],
   },
-  { id: "nurjamal", name: "Нуржамал Ахматова", gender: "f", photo: "photos/Нуржамал-Ахметова.jpg" },
+  {
+    id: "nurjamal",
+    name: "Нуржамал Ахматова",
+    gender: "f",
+    photo: "photos/Нуржамал-Ахметова.jpg",
+  },
   {
     id: "nursultan",
     name: "Нурсултан Бектурганов",
@@ -328,7 +333,12 @@ export const family: Person[] = [
     parents: ["zhanibek-o", "roza"],
     partners: ["perizat"],
   },
-  { id: "perizat", name: "Перизат Салиева", gender: "f", photo: "photos/Перизат-Салиева.jpg" },
+  {
+    id: "perizat",
+    name: "Перизат Салиева",
+    gender: "f",
+    photo: "photos/Перизат-Салиева.jpg",
+  },
   {
     id: "elman",
     name: "Эльман Осмоналиев",
@@ -388,7 +398,12 @@ export const family: Person[] = [
     parents: ["elmira", "mederbek"],
     partners: ["chubak"],
   },
-  { id: "chubak", name: "Чубак Жангазиев", gender: "m", photo: "photos/Чубак-Жангазиев.jpg" },
+  {
+    id: "chubak",
+    name: "Чубак Жангазиев",
+    gender: "m",
+    photo: "photos/Чубак-Жангазиев.jpg",
+  },
   {
     id: "ramilya",
     name: "Рамиля Жангазиева",
@@ -419,7 +434,12 @@ export const family: Person[] = [
     parents: ["elmira", "mederbek"],
     partners: ["daniyar"],
   },
-  { id: "daniyar", name: "Данияр Памирбек уулу", gender: "m", photo: "photos/Данияр-Памирбек-уулу.jpg" },
+  {
+    id: "daniyar",
+    name: "Данияр Памирбек уулу",
+    gender: "m",
+    photo: "photos/Данияр-Памирбек-уулу.jpg",
+  },
   {
     id: "abdullah",
     name: "Абдуллах Памирбеков",
@@ -446,6 +466,7 @@ export const family: Person[] = [
     id: "bekbol",
     name: "Бекбол Аканов",
     gender: "m",
+    photo: "photos/Бекбол-Аканов.jpg",
     parents: ["elmira", "mederbek"],
   },
 
@@ -458,7 +479,12 @@ export const family: Person[] = [
     parents: ["nuraly", "buraila"],
     partners: ["ryspek"],
   },
-  { id: "ryspek", name: "Рыспек Айтикеев", gender: "m", photo: "photos/Рыспек-Айтикеев.jpg" },
+  {
+    id: "ryspek",
+    name: "Рыспек Айтикеев",
+    gender: "m",
+    photo: "photos/Рыспек-Айтикеев.jpg",
+  },
   {
     id: "aliya",
     name: "Алия Айтикеева",
@@ -475,7 +501,12 @@ export const family: Person[] = [
     parents: ["ainura", "ryspek"],
     partners: ["myrzabek"],
   },
-  { id: "myrzabek", name: "Мырзабек", gender: "m", photo: "photos/Мырзабек.jpg" },
+  {
+    id: "myrzabek",
+    name: "Мырзабек",
+    gender: "m",
+    photo: "photos/Мырзабек.jpg",
+  },
   {
     id: "murat",
     name: "Мурат Бейшенов",
