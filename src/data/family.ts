@@ -53,7 +53,7 @@ export const family: Person[] = [
   },
   {
     id: "ainazik",
-    name: "Айназик Жаныбековна",
+    name: "Айназик Жаныбекова",
     gender: "f",
     parents: ["maksat", "nurgul"],
   },
@@ -107,10 +107,10 @@ export const family: Person[] = [
     parents: ["bakyt", "kyzdarkan"],
   },
   {
-    id: "karylgach",
-    name: "Карылгач Маматова",
+    id: "akmaral",
+    name: "Акмарал Маматова",
     gender: "f",
-    photo: "photos/Карылгач-Маматова.jpg",
+    photo: "photos/Акмарал-Маматова.jpg",
     parents: ["bakyt", "kyzdarkan"],
   },
 
@@ -129,6 +129,7 @@ export const family: Person[] = [
     id: "nuraly",
     name: "Нуралы Осмоналиев",
     gender: "m",
+    photo: "photos/Нуралы-Осмоналиев.jpg",
     partners: ["buraila"],
   },
   {
@@ -163,122 +164,6 @@ export const family: Person[] = [
     photo: "photos/Сагын-Осмоналиев.jpg",
     parents: ["cholpon", "kanybek"],
   },
-
-  // Гульмира + Койчун
-  {
-    id: "gulmira",
-    name: "Гульмира Осмоналиева",
-    gender: "f",
-    born: "1963",
-    photo: "photos/Гульмира-Осомналиева.jpg",
-    parents: ["nuraly", "buraila"],
-    partners: ["koichun"],
-  },
-  {
-    id: "koichun",
-    name: "Койчун Эрмекбаев",
-    gender: "m",
-    born: "1963",
-    photo: "photos/Койчун-Эрмекбаев.jpg",
-  },
-
-  {
-    id: "sapar",
-    name: "Сапар Эрмекбаев",
-    gender: "m",
-    photo: "photos/Сапар-Эрмекбаев.jpg",
-    parents: ["gulmira", "koichun"],
-    partners: ["nurjamal"],
-  },
-  {
-    id: "nurjamal",
-    name: "Нуржамал Ахматова",
-    gender: "f",
-    photo: "photos/Нуржамал-Ахметова.jpg",
-  },
-  {
-    id: "nursultan",
-    name: "Нурсултан Бектурганов",
-    gender: "m",
-    photo: "photos/Нурсултан-Бектурганов.jpg",
-    parents: ["sapar", "nurjamal"],
-  },
-  {
-    id: "almaz",
-    name: "Алмаз Бектурганов",
-    gender: "m",
-    photo: "photos/Алмаз-Бектурганов.jpg",
-    parents: ["sapar", "nurjamal"],
-  },
-  {
-    id: "asylzat",
-    name: "Асылзат Бектурганова",
-    gender: "f",
-    photo: "photos/Асылзат Бектурганова.jpg",
-    parents: ["sapar", "nurjamal"],
-  },
-  {
-    id: "aruuzat",
-    name: "Аруузат Бектурганова",
-    gender: "f",
-    photo: "photos/Аруузат Бектурганова.jpg",
-    parents: ["sapar", "nurjamal"],
-  },
-
-  {
-    id: "ziyara",
-    name: "Зияра Эрмекбаева",
-    gender: "f",
-    photo: "photos/Зияра-Эрмекбаева.jpg",
-    parents: ["gulmira", "koichun"],
-    partners: ["ziyara-spouse"],
-  },
-  { id: "ziyara-spouse", name: "Күйөөсү", gender: "m", extra: "аты белгисиз" },
-  {
-    id: "asiya",
-    name: "Асия Салыбаева",
-    gender: "f",
-    photo: "photos/Асия-Салыбаева.jpg",
-    parents: ["ziyara", "ziyara-spouse"],
-  },
-  {
-    id: "aslan",
-    name: "Аслан Жусупмаматов",
-    gender: "m",
-    parents: ["ziyara", "ziyara-spouse"],
-  },
-
-  {
-    id: "mairambek",
-    name: "Майрамбек Бектурганов",
-    gender: "m",
-    photo: "photos/Майрамбек-Бектурганов.jpg",
-    parents: ["gulmira", "koichun"],
-    partners: ["aiperi-s"],
-  },
-  {
-    id: "aiperi-s",
-    name: "Айпери Акбиева",
-    gender: "f",
-    photo: "photos/Айпери-Акбиева.jpg",
-  },
-  {
-    id: "erulan",
-    name: "Эрулан Бектурганов",
-    gender: "m",
-    photo: "photos/Эрулан-Бектурганов.jpg",
-    parents: ["mairambek", "aiperi-s"],
-  },
-
-  {
-    id: "aiperi",
-    name: "Айпери Бектурганова",
-    gender: "f",
-    photo: "photos/Айпери-Бектурганова.jpg",
-    parents: ["gulmira", "koichun"],
-    partners: ["omurbek"],
-  },
-  { id: "omurbek", name: "Өмүрбек", gender: "m", photo: "photos/Өмүрбек.jpg" },
 
   // Жаныбек + Роза
   {
@@ -373,6 +258,122 @@ export const family: Person[] = [
     gender: "m",
     parents: ["zhanibek-o", "roza"],
   },
+
+  // Гульмира + Койчун
+  {
+    id: "gulmira",
+    name: "Гульмира Осмоналиева",
+    gender: "f",
+    born: "1963",
+    photo: "photos/Гульмира-Осомналиева.jpg",
+    parents: ["nuraly", "buraila"],
+    partners: ["koichun"],
+  },
+  {
+    id: "koichun",
+    name: "Койчун Эрмекбаев",
+    gender: "m",
+    born: "1963",
+    photo: "photos/Койчун-Эрмекбаев.jpg",
+  },
+
+  {
+    id: "sapar",
+    name: "Сапар Эрмекбаев",
+    gender: "m",
+    photo: "photos/Сапар-Эрмекбаев.jpg",
+    parents: ["gulmira", "koichun"],
+    partners: ["nurjamal"],
+  },
+  {
+    id: "nurjamal",
+    name: "Нуржамал Ахматова",
+    gender: "f",
+    photo: "photos/Нуржамал-Ахметова.jpg",
+  },
+  {
+    id: "nursultan",
+    name: "Нурсултан Бектурганов",
+    gender: "m",
+    photo: "photos/Нурсултан-Бектурганов.jpg",
+    parents: ["sapar", "nurjamal"],
+  },
+  {
+    id: "almaz",
+    name: "Алмаз Бектурганов",
+    gender: "m",
+    photo: "photos/Алмаз-Бектурганов.jpg",
+    parents: ["sapar", "nurjamal"],
+  },
+  {
+    id: "asylzat",
+    name: "Асылзат Бектурганова",
+    gender: "f",
+    photo: "photos/Асылзат Бектурганова.jpg",
+    parents: ["sapar", "nurjamal"],
+  },
+  {
+    id: "aruuzat",
+    name: "Аруузат Бектурганова",
+    gender: "f",
+    photo: "photos/Аруузат Бектурганова.jpg",
+    parents: ["sapar", "nurjamal"],
+  },
+
+  {
+    id: "ziyara",
+    name: "Зияра Эрмекбаева",
+    gender: "f",
+    photo: "photos/Зияра-Эрмекбаева.jpg",
+    parents: ["gulmira", "koichun"],
+    partners: ["ziyara-meder"],
+  },
+  { id: "ziyara-meder", name: "Медер Жусупмаматов", gender: "m" },
+  {
+    id: "asiya",
+    name: "Асия Салыбаева",
+    gender: "f",
+    photo: "photos/Асия-Салыбаева.jpg",
+    parents: ["ziyara", "ziyara-meder"],
+  },
+  {
+    id: "aslan",
+    name: "Аслан Жусупмаматов",
+    gender: "m",
+    parents: ["ziyara", "ziyara-meder"],
+  },
+
+  {
+    id: "mairambek",
+    name: "Майрамбек Бектурганов",
+    gender: "m",
+    photo: "photos/Майрамбек-Бектурганов.jpg",
+    parents: ["gulmira", "koichun"],
+    partners: ["aiperi-s"],
+  },
+  {
+    id: "aiperi-s",
+    name: "Айпери Акбиева",
+    gender: "f",
+    photo: "photos/Айпери-Акбиева.jpg",
+  },
+  {
+    id: "erulan",
+    name: "Эрулан Бектурганов",
+    gender: "m",
+    photo: "photos/Эрулан-Бектурганов.jpg",
+    parents: ["mairambek", "aiperi-s"],
+  },
+
+  {
+    id: "aiperi",
+    name: "Айпери Бектурганова",
+    gender: "f",
+    photo: "photos/Айпери-Бектурганова.jpg",
+    parents: ["gulmira", "koichun"],
+    partners: ["omurbek"],
+  },
+  { id: "omurbek", name: "Өмүрбек", gender: "m", photo: "photos/Өмүрбек.jpg" },
 
   // Эльмира + Медер
   {
