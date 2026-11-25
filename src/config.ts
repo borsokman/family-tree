@@ -1,6 +1,6 @@
 /** Visual settings. */
 export const config = {
-  title: 'Санжыра',
+  title: "Үй-Бүлө Дарагы",
   /** Box size (px). */
   boxWidth: 186,
   boxHeight: 70,
@@ -14,4 +14,4 @@ export const config = {
   stackLeafSiblings: false,
   /** Outer margin (px). */
   margin: 40,
-}
+};
